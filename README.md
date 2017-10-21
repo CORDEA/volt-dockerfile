@@ -13,6 +13,6 @@ $ docker run -it --name volt volt:latest
 $ mkdir -p app/src
 $ cd app
 $ # write battery.txt and volt script ...
-$ $HOME/volt/battery config $HOME/volt/Volta $HOME/volt/Watt .
-$ $HOME/volt/battery build
+$ battery config $HOME/volt/Volta $HOME/volt/Watt .
+$ battery build
 ```
