@@ -22,7 +22,8 @@ RUN git clone https://github.com/VoltLang/Watt.git && \
     git clone https://github.com/VoltLang/Volta.git && \
     wget https://github.com/VoltLang/Battery/releases/download/v0.1.13/battery-0.1.13-x86_64-linux.tar.gz && \
     tar xzvf battery-0.1.13-x86_64-linux.tar.gz && \
-    rm battery-0.1.13-x86_64-linux.tar.gz
+    rm battery-0.1.13-x86_64-linux.tar.gz && \
+    mv battery /usr/local/bin
 
 WORKDIR $HOME
 
