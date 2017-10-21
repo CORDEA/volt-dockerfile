@@ -8,7 +8,7 @@ $ docker build -t volt:latest volt-dockerfile
 
 If you want to try volt
 
-```
+```bash
 $ docker run -it --name volt volt:latest
 $ mkdir -p app/src
 $ cd app
